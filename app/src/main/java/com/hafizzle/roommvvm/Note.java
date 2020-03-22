@@ -7,6 +7,8 @@ import androidx.room.PrimaryKey;
 public class Note {
 
     /*
+    Note - Entity.
+
     Columns.
 
     You may also use @Ignore to ignore any fields that you don't want to be added.
