@@ -9,6 +9,7 @@ import java.util.List;
 
 public class NoteRespository {
     /*
+    A abstraction layer to the database & models.
     Provides clean API to allow the rest of the View Model to access database.
 
     Room does not allow database operations on the main thread.

@@ -29,6 +29,18 @@ import java.util.List;
     @Query("Select * FROM note_table ORDER BY priority DESC")
     LiveData<List<Note>> getAllNotes();
 
+    Another DAO example for a Employee Entity -
+    interface EmployeeDAO {
+
+    List<Employee> findAll();
+    List<Employee> findById();
+    List<Employee> findByName();
+    boolean insertEmployee(Employee employee);
+    boolean updateEmployee(Employee employee);
+    boolean deleteEmployee(Employee employee);
+
+}
+
 */
 
 @Dao
