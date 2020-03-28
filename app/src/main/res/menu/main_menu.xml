@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--showAsAction will ensure it's in the dropdown menu instead of the action bar -->
+    <item
+        android:id="@+id/delete_all_notes"
+        android:title="Delete all notes"
+        app:showAsAction="never"/>
+
+</menu>
